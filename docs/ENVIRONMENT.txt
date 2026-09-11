@@ -1,0 +1,27 @@
+DYYY Live Server Environment
+Generated: 2026-09-11T08:06:04+08:00
+
+=== OS ===
+Linux TS 7.0.0-31-generic #31-Ubuntu SMP PREEMPT_DYNAMIC Sat Aug  1 04:26:38 UTC 2026 x86_64 GNU/Linux
+
+=== Node ===
+v22.22.1
+
+=== npm ===
+9.2.0
+
+=== Node path ===
+/usr/bin/node
+
+=== Playwright ===
+Version 1.63.0
+
+=== npm dependencies ===
+dy-live-server@1.0.0 /home/ts/dy-live-server
+├── @emnapi/runtime@1.11.3 extraneous
+├── @img/sharp-wasm32@0.35.4 extraneous
+├── express@5.2.1
+├── playwright@1.63.0
+├── sharp@0.35.4
+└── tslib@2.8.1 extraneous
+

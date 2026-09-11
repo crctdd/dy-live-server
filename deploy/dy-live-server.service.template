@@ -1,0 +1,27 @@
+[Unit]
+Description=Douyin DYYY Live Photo API
+After=network-online.target tailscaled.service
+Wants=network-online.target
+
+[Service]
+Type=simple
+
+User=__USER__
+WorkingDirectory=__APP_DIR__
+
+Environment=HOME=__HOME__
+Environment=NODE_ENV=production
+
+ExecStart=__NODE_BIN__ __APP_DIR__/server.mjs
+
+Restart=always
+RestartSec=3
+
+KillSignal=SIGTERM
+TimeoutStopSec=15
+
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target
