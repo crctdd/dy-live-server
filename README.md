@@ -154,3 +154,7 @@ docs/CLOUDFLARE.md
 - 日志
 
 Tailscale 身份状态位于系统目录，不应提交到 GitHub。
+
+## 详细完整说明
+
+[查看非常详细的说明](docs/非常详细的说明.md)
