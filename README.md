@@ -143,7 +143,7 @@ docs/CLOUDFLARE.md
 
 ## 注意
 
-不要上传以下内容：
+敏感内容：
 
 - node_modules
 - Chromium浏览器缓存
@@ -155,7 +155,7 @@ docs/CLOUDFLARE.md
 - .env
 - 日志
 
-Tailscale 身份状态位于系统目录，不应提交到 GitHub。
+Tailscale 身份状态位于系统目录。
 
 ## 详细完整说明
 
